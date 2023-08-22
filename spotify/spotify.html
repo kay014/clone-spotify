@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREj5R0aNDjH8fEGzNCA_5J4Gv2Ni_mmlGBeIz34QVe&s">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <span class="material-symbols-outlined">
+                    home
+                    </span>
+                    <a href="#">home</a>
+                </div>
+                <div class="nav-option">
+                    <span class="material-symbols-outlined">
+                    search
+                    </span>    
+                    <a href="#">Search</a>
+                 </div>
+            </div> <br>
+            <div class="nav1">
+                <div class="nav-option">
+                    <span class="material-symbols-outlined">
+                    library_music
+                    </span>
+                    <a href="#">Your Library</a>
+                    <span id="plus" class="material-symbols-outlined">
+                        add
+                    </span><br>
+                </div><br>
+                <div class="box1">
+                    <h3>Create your first playlist</h3>
+                    <p>It's easy We'll help you</p>
+                    <button id="playlist">Create Playlist</button>                   
+                </div>
+                <br>
+                <div class="box1">
+                    <h3>Let's find some podcasts to follow</h3>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button id="playlist">Browse podcasts</button>                                      
+                </div>
+            </div>
+        </div>
+        <div class="maincontent">
+            <div class="box2">
+                <div class="header">
+                    <br>
+                    <button id="arrow" class="material-symbols-outlined">
+                         arrow_back_ios
+                    </button>
+                    <button id="arrow" class="material-symbols-outlined">
+                        arrow_forward_ios
+                    </button>
+                    <button id="explore">Explore Premium</button>
+                    <button id="install">Install App</button>
+                    <button id="person" class="material-symbols-outlined">
+                        person
+                    </button>
+                </div> 
+                <div class="content">
+                    <h2>Recently Placed</h2>
+                    <div class="cards">
+                    <br>
+                        <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" width="180">
+                    <h3>Top 50 Global</h3>
+                    <p>Your daily update of the most played tracks right...</p>
+                    </div>
+                    <div class="abc">
+                    <h2>Spotify original & exclusive podcasts</h2>
+                    <button id="show">Show all</button>
+                    </div>
+                    <div class="cardsrally">
+                        <div class="cards">
+                            <br>
+                                <img src="https://upload.wikimedia.org/wikipedia/en/a/ab/Kai_-_cover.png" width="180">
+                            <h3>Kpop Top 20 </h3>
+                            <p>Start your day with some Kpop all time hits..</p>
+                        </div>
+                        <div class="cards">
+                            <br>
+                                <img src="https://i.pinimg.com/originals/c5/6b/f0/c56bf0ebd659d70396df3e4184aaf904.jpg" width="180">
+                            <h3>Eminem Special's </h3>
+                            <p>When life is hard, Eminem hits even harder..</p>
+                        </div>
+                        <div class="cards">
+                            <br>
+                                <img src="https://static.wikia.nocookie.net/dojacat/images/c/c7/Planet_Her_deluxe_cover.jpeg/revision/latest?cb=20210627123019" width="180">
+                            <h3>High on Trends</h3>
+                            <p>Doja Cat, SZA, Billie ellish Trends..</p>
+                        </div>
+                    
+
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur voluptate maxime at perspiciatis, quibusdam dolores minus dolorem voluptatibus mollitia molestias minima saepe necessitatibus officia quos nesciunt aliquid. Numquam, provident!</p>
+                </div> 
+             </div>
+        </div>
+     <div class="musicplayer">
+        <div class="album">
+            <div class="photo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/01/Taylor_Swift_-_Love_Story.png" height="40px" style="padding-left: 25px;">
+            </div>
+            <div class="name">
+            <span style="font-size: 14px; font-weight: 600; font-family: 'Montserrat', sans-serif; padding-left: 8px;">Lovestory</span><br><br>
+            <span style="font-size: 10px; font-weight: 400; font-family: 'Montserrat', sans-serif; padding-left: 8px;">Taylor Swift</span>
+            </div>
+            <div class="icons">
+                <span class="material-symbols-outlined">
+                    favorite
+                </span>
+                <span class="material-symbols-outlined" style="padding-left: 10px;">
+                    collections_bookmark
+                </span>
+            </div>
+        </div>
+        <div class="player">
+            <div class="icons1">
+                <span class="material-symbols-outlined">
+                    shuffle
+                </span>
+                <span class="material-symbols-outlined">
+                    skip_previous
+                    </span>
+                <span id="vv" class="material-symbols-outlined">
+                    play_circle
+                    </span>
+                <span class="material-symbols-outlined">
+                    skip_next
+                    </span>
+                <span class="material-symbols-outlined">
+                    repeat
+                </span>
+            </div>
+            <div class="playback" >
+                <span class="Stime">0.00 </span>
+                <input type="range" style=" background-color: rgba(55, 176, 55, 0.782); width: 400px; height: 4.5px;" min="0" max="100">
+                <span class="Etime">3.33 </span>
+            </div>
+        </div>
+        <div class="righticons">
+            <span class="material-symbols-outlined">
+                smart_display
+                </span>
+            <span class="material-symbols-outlined">
+                add_to_queue
+                </span>
+            <span class="material-symbols-outlined">
+                speaker_group
+                </span>
+            <span class="material-symbols-outlined">
+                volume_up
+                </span>
+            <input type="range" min="0" max="100" style="height: 4px;
+            width: 85px; margin-top: 27px;">
+
+        </div>
+    
+</body>
+</html>
